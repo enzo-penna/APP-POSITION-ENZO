@@ -1,0 +1,74 @@
+*{margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+li { 
+    display: inline-block;
+    width: 4%;
+}
+ a {
+    font-size: 13px;
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+ }
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+#logo{
+width: 20%;
+vertical-align: middle;
+}
+#logoimg{
+    width: 68.81px;
+    height: 79.30px;
+    margin-top: 15px;
+}
+section {
+    height: 78vh;
+background-image: url(https://preview.colorlib.com/theme/rooftop/img/header-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+
+}
+#text-center {position: absolute;
+    left:50%;
+    Top:50%;
+    transform: translate(-50%, -50%);
+ p {font-size: 76px;
+    font-family: "Playfair Display", serif;
+color: white;
+font-weight: 500;
+letter-spacing: 10.8px;
+text-transform: uppercase;
+}
+.um {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;   
+}
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  padding: 10px 0;
+  min-width: 150px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.dropdown-menu li {
+  padding: 8px 15px;
+}
+.dropdown-menu li a {
+  color: black;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
